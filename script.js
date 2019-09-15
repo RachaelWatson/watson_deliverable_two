@@ -1,5 +1,5 @@
 var tempFahr = prompt("What's the temperature outside today?");
-var eventType = prompt("What kind of events are you attending today (casual, semi-formal, or formal?");
+var eventType = prompt("What kind of events are you attending today (casual, semi-formal, or formal?)");
 
 if (tempFahr < "54")
   {var layer = " wear a coat and ";
@@ -21,4 +21,4 @@ var result = 'Since it is ' +tempFahr+ ' degrees and you are going to a ' +event
 
 
 document.write(result);
-console.log;
+console.log(result)
